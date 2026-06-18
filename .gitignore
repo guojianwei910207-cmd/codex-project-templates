@@ -1,0 +1,29 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.tmp
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs and generated files
+*.log
+logs/
+node_modules/
+.next/
+dist/
+build/
+coverage/
+.cache/
+uploads/
+exports/
